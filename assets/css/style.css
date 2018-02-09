@@ -26,3 +26,7 @@
 .price-list td {
     padding: 5px 10px;
 }
+
+.price-list .price-number {
+    text-align: center;
+}
