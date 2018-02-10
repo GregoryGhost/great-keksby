@@ -138,6 +138,16 @@ body {
     margin-top: 20px;
 }
 
+.review-item {
+    font-size: 16px;
+    border-left: solid 3px #a38b70;
+}
+
+.review-author {
+    font-style: italic;
+    font-weight: bold;
+}
+
 .price-list {
     width: 100%;
     border-collapse: collapse;
