@@ -54,6 +54,19 @@ body {
     color: rgba(141, 116, 90, 0.3);
 }
 
+.promo {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+
+.promo a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .page-footer {
     margin-top: 20px;
 }
