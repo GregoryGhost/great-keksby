@@ -214,6 +214,13 @@ body {
     color: #000000;
 }
 
+.feedback-form {
+    background-image: url("img/write.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 40px;
+    padding-right: 390px;
+}
+
 .feedback-tip {
     font-size: 16px;
 }
