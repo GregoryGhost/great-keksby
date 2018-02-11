@@ -168,8 +168,9 @@ body {
     border-left-color: transparent;
 }
 
-.feature-item>p {
+.feature-item p {
     font-size: 16px;
+    margin: 0;
 }
 
 .feature-choice {
@@ -196,6 +197,8 @@ body {
     line-height: 30px;
     font-weight: bold;
     color: #a38b70;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .cat-reference {
