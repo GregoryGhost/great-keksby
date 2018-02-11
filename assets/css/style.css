@@ -195,7 +195,7 @@ body {
     margin: 0;
 }
 
-.cat-reference dd + dt {
+.cat-reference dd+dt {
     margin-top: 70px;
 }
 
@@ -302,11 +302,17 @@ body {
     color: #000000;
 }
 
+.feedback {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
 .feedback-form {
     background-image: url("img/write.jpg");
     background-repeat: no-repeat;
     background-position: 100% 40px;
     padding-right: 390px;
+    width: 630px;
 }
 
 .feedback-tip {
