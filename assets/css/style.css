@@ -45,6 +45,12 @@ body {
     height: 55px;
 }
 
+.header-logo img {
+    float: left;
+    width: 205px;
+    height: 55px;
+}
+
 .main-nav {
     list-style: none;
     float: left;
@@ -52,10 +58,19 @@ body {
     padding: 0 0;
     margin: 0 0;
     margin-left: 125px;
+    margin-top: 18px;
 }
 
 .main-nav li {
     text-transform: uppercase;
+    float: left;
+    margin-right: 50px;
+}
+
+.main-nav li:last-child {
+    text-transform: uppercase;
+    float: left;
+    margin-right: 0;
 }
 
 .main-nav a {
