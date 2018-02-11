@@ -228,6 +228,11 @@ body {
     float: left;
     font-size: 16px;
     border-left: solid 3px #a38b70;
+    width: 377px;
+    margin: 0;
+    margin-right: 80px;
+    padding: 0;
+    padding-left: 50px;
 }
 
 .review-author {
@@ -237,10 +242,28 @@ body {
 
 .popular-and-price {
     background-color: #f2f2f2;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.popular-items {
+    margin-bottom: 50px;
 }
 
 .catalog-item {
+    float: left;
+    width: 308px;
+    margin-right: 48px;
     font-size: 16px;
+}
+
+.catalog-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.catalog-item:last-of-type {
+    margin-right: 0;
 }
 
 .catalog-item h3 {
