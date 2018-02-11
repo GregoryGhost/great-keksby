@@ -355,11 +355,38 @@ body {
 .page-footer {
     background-color: #363636;
     color: #c3c3c3;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.footer-top {
+    margin-bottom: 45px;
+}
+
+.footer-middle {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-bottom {
+    padding-top: 50px;
 }
 
 .footer-middle,
 .footer-bottom {
     border-top: solid 1px #5e5e5e;
+}
+
+.footer-logo {
+    float: left;
+    width: 205px;
+    height: 55px;
+}
+
+.footer-menu {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
 }
 
 .footer-menu h3 {
@@ -387,6 +414,11 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
+.footer-social {
+    float: left;
+    width: 490px;
+}
+
 .footer-social b {
     font-family: "Georgia", serif;
     font-size: 24px;
@@ -400,6 +432,8 @@ body {
 .footer-copyright {
     color: #ffffff;
     text-transform: uppercase;
+    float: right;
+    width: 236px;
 }
 
 .footer-copyright a {
