@@ -91,6 +91,15 @@ body {
 }
 
 .btn {
+    display: inline-block;
+    border: solid 2px #a38b70;
+    border-radius: 2px;
+    padding: 10px;
+    width: 146px;
+    word-wrap: break-word;
+    font: inherit;
+    text-align: center;
+    vertical-align: top;
     color: #a38b70;
     text-decoration: none;
     text-transform: uppercase;
@@ -98,10 +107,12 @@ body {
 
 .btn:hover {
     color: #8d745a;
+    border-color: #8d745a;
 }
 
 .btn:active {
     color: rgba(141, 116, 90, 0.3);
+    border-color: #8d745a;
 }
 
 .promo {
