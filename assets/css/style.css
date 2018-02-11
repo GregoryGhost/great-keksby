@@ -16,7 +16,10 @@ body {
 
 .page-header {
     color: #c3c3c3;
-    background-color: #363636;
+    background-image: url("img/header-bg.jpg");
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: color;
 }
 
 .main-nav {
