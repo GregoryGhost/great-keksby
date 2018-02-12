@@ -45,6 +45,12 @@ body {
     height: 55px;
 }
 
+.header-logo img {
+    float: left;
+    width: 205px;
+    height: 55px;
+}
+
 .main-nav {
     list-style: none;
     float: left;
@@ -52,10 +58,19 @@ body {
     padding: 0 0;
     margin: 0 0;
     margin-left: 125px;
+    margin-top: 18px;
 }
 
 .main-nav li {
     text-transform: uppercase;
+    float: left;
+    margin-right: 50px;
+}
+
+.main-nav li:last-child {
+    text-transform: uppercase;
+    float: left;
+    margin-right: 0;
 }
 
 .main-nav a {
@@ -71,11 +86,16 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
-.btn-quick-order {
-    float: right;
-}
-
 .btn {
+    display: inline-block;
+    border: solid 2px #a38b70;
+    border-radius: 2px;
+    padding: 10px;
+    width: 146px;
+    word-wrap: break-word;
+    font: inherit;
+    text-align: center;
+    vertical-align: top;
     color: #a38b70;
     text-decoration: none;
     text-transform: uppercase;
@@ -83,10 +103,31 @@ body {
 
 .btn:hover {
     color: #8d745a;
+    border-color: #8d745a;
 }
 
 .btn:active {
     color: rgba(141, 116, 90, 0.3);
+    border-color: #8d745a;
+}
+
+.btn-quick-order {
+    float: right;
+    margin-top: 6px;
+    border-color: white;
+    color: white;
+}
+
+.btn-quick-order:hover {
+    color: #404040;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-quick-order:active {
+    color: rgba(64, 64, 64, 0.3);
+    background-color: white;
+    border-color: white;
 }
 
 .promo {
@@ -121,32 +162,51 @@ body {
     width: 279px;
     padding-left: 30px;
     padding-right: 30px;
+    position: relative;
+}
+
+.feature-item::before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 0;
+    left: 137px;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
 }
 
 .feature-item:first-child {
     border-left-color: transparent;
 }
 
-.feature-item>p {
+.feature-item p {
     font-size: 16px;
+    margin: 0;
+}
+
+.feature-choice::before {
+    background-position: -5px -5px;
+}
+
+.feature-quality::before {
+    background-position: -5px -76px;
+}
+
+.feature-safety::before {
+    background-position: 1px -143px;
 }
 
 .feature-choice {
-    background-image: url("../img/feature-1.png");
-    background-repeat: no-repeat;
-    background-position: top center;
+    
 }
 
 .feature-quality {
-    background-image: url("../img/feature-2.png");
-    background-repeat: no-repeat;
-    background-position: top center;
+    
 }
 
 .feature-safety {
-    background-image: url("../img/feature-3.png");
-    background-repeat: no-repeat;
-    background-position: top center;
+    
 }
 
 .feature-title {
@@ -155,6 +215,8 @@ body {
     line-height: 30px;
     font-weight: bold;
     color: #a38b70;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .cat-reference {
@@ -163,16 +225,30 @@ body {
     padding-bottom: 90px;
 }
 
+.cat-reference .container {
+    position: relative;
+}
+
+.to-full-reference {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
 .section-title {
     font-family: "Georgia", serif;
     font-size: 45px;
     line-height: 55px;
     font-weight: bold;
     color: #a38b70;
+    margin: 0;
+    margin-bottom: 60px;
+    margin-right: 180px;
 }
 
 .reference-title {
     font-size: 24px;
+    display: inline;
 }
 
 .reference-source {
@@ -183,6 +259,8 @@ body {
 
 .cat-reference dl {
     width: 820px;
+    margin: 0;
+    padding: 0;
 }
 
 .cat-reference dt {
@@ -193,19 +271,44 @@ body {
 .cat-reference dd {
     font-size: 16px;
     margin: 0;
+    position: relative;
+    min-height: 100px;
+    padding-left: 130px;
 }
 
 .cat-reference dd+dt {
     margin-top: 70px;
 }
 
-.cat-reference dd>img {
+.cat-reference dd img {
     border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.cat-reference dd p {
+    margin: 0;
 }
 
 .reference-source a {
     color: #a38b70;
+    position: relative;
 }
+
+.reference-source a::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    top: 0;
+    right: -10px;
+    background: url("../img/sprite.png") no-repeat -5px -210px;
+}
+
 
 .reference-source a:hover {
     color: #8d745a;
