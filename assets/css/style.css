@@ -248,6 +248,7 @@ body {
 
 .reference-title {
     font-size: 24px;
+    display: inline;
 }
 
 .reference-source {
@@ -294,7 +295,20 @@ body {
 
 .reference-source a {
     color: #a38b70;
+    position: relative;
 }
+
+.reference-source a::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    top: 0;
+    right: -10px;
+    background: url("../img/sprite.png") no-repeat -5px -210px;
+}
+
 
 .reference-source a:hover {
     color: #8d745a;
