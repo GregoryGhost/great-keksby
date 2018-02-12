@@ -197,17 +197,11 @@ body {
     background-position: 1px -143px;
 }
 
-.feature-choice {
-    
-}
+.feature-choice {}
 
-.feature-quality {
-    
-}
+.feature-quality {}
 
-.feature-safety {
-    
-}
+.feature-safety {}
 
 .feature-title {
     font-family: "Georgia", serif;
@@ -308,7 +302,6 @@ body {
     right: -10px;
     background: url("../img/sprite.png") no-repeat -5px -210px;
 }
-
 
 .reference-source a:hover {
     color: #8d745a;
@@ -490,6 +483,36 @@ body {
     padding-bottom: 70px;
 }
 
+.feedback .container {
+    position: relative;
+}
+
+.feedback-tip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 500px;
+    font-size: 16px;
+}
+
+.feedback-form .btn {
+    margin-top: 40px;
+    background-color: #a38b70;
+    color: white;
+}
+
+.feedback-form .btn:hover {
+    background-color: #8d745a;
+}
+
+.feedback-form .btn:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.feedback .section-tile {
+    max-width: 500px;
+}
+
 .feedback-form {
     background-image: url("../img/write.jpg");
     background-repeat: no-repeat;
@@ -498,17 +521,23 @@ body {
     width: 630px;
 }
 
-.feedback-tip {
-    font-size: 16px;
-}
-
 .feedback-form-group {
-    padding: 10px 0;
+    margin-bottom: 15px;
 }
 
 .feedback-form-group label {
+    display: inline-block;
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0;
     text-transform: uppercase;
     font-size: 12px;
+}
+
+.feedback-form textarea {
+    display: block;
+    min-height: 120px;
 }
 
 .feedback-form input[type="text"],
@@ -517,6 +546,10 @@ body {
     font: inherit;
     color: inherit;
     border: solid 2px #d5d5d5;
+    width: 100%;
+    padding: 9px 15px;
+    height: 54px;
+    box-sizing: border-box;
 }
 
 .feedback-form input[type="text"]:hover,
@@ -531,8 +564,27 @@ body {
     border: solid 2px #8d745a;
 }
 
+.feedback-form-group-left-part {
+    float: left;
+    width: 290px;
+}
+
+.feedback-form-group-right-part {
+    float: right;
+    width: 290px;
+}
+
 .checkbox-area {
     border-bottom: solid 1px #d5d5d5;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 17px;
+}
+
+.checkbox-area input[type="checkbox"] {
+    margin: 0;
+    margin-right: 5px;
 }
 
 .page-footer {
