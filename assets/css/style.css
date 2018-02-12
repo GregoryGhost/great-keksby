@@ -364,6 +364,16 @@ body {
     padding-bottom: 90px;
 }
 
+.popular-and-price .container {
+    position: relative;
+}
+
+.to-catalog {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .popular-items {
     margin-bottom: 50px;
 }
