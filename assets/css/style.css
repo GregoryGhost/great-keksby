@@ -618,6 +618,11 @@ body {
     height: 55px;
 }
 
+.footer-logo img {
+    width: 205px;
+    height: 55px;
+}
+
 .footer-menu {
     float: left;
     width: 150px;
@@ -625,6 +630,8 @@ body {
 }
 
 .footer-menu h3 {
+    margin: 0;
+    margin-bottom: 20px;
     font-family: "Georgia", serif;
     font-size: 24px;
     font-weight: bold;
@@ -633,6 +640,12 @@ body {
 
 .footer-menu ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 15px;
 }
 
 .footer-menu a {
@@ -652,23 +665,65 @@ body {
 .footer-social {
     float: left;
     width: 490px;
+    font-size: 0;
 }
 
 .footer-social b {
+    margin-right: 40px;
     font-family: "Georgia", serif;
     font-size: 24px;
     color: #a38b70;
 }
 
 .social-btn {
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
     color: #ffffff;
+    background: url("../img/sprite.png") no-repeat;
+}
+
+.social-btn:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.social-btn:active {
+    border-color: #ffffff;
+    opacity: 0.1;
+}
+
+.social-btn-vk {
+    background-position: 16px -238px;
+}
+
+.social-btn-fb {
+    background-position: 19px -297px;
+}
+
+.social-btn-in {
+    background-position: 13px -358px;
 }
 
 .footer-copyright {
+    margin-top: 17px;
     color: #ffffff;
     text-transform: uppercase;
     float: right;
     width: 236px;
+}
+
+.footer-copyright .heart {
+    display: inline-block;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -5px -419px;
+    width: 27px;
+    height: 24px;
+    font-size: 0;
+    vertical-align: middle;
 }
 
 .footer-copyright a {
