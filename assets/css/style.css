@@ -380,14 +380,21 @@ body {
 
 .catalog-item {
     float: left;
-    width: 308px;
+    width: 262px;
     margin-right: 48px;
+    padding: 15px 22px;
     font-size: 16px;
+    border: solid 1px #d8d8d8;
+    position: relative;
+    padding-top: 221px;
 }
 
 .catalog-item img {
-    max-width: 100%;
-    height: auto;
+    width: 306px;
+    height: 206px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .catalog-item:last-of-type {
@@ -395,8 +402,41 @@ body {
 }
 
 .catalog-item h3 {
+    float: left;
+    max-width: 205px;
+    margin: 0;
+    margin-bottom: 20px;
     font-size: 16px;
     color: #000000;
+}
+
+.catalog-item-price {
+    float: right;
+    max-width: 55px;
+    margin-bottom: 20px;
+}
+
+.catalog-item .btn-info {
+    float: left;
+    clear: left;
+}
+
+.catalog-item .btn-buy {
+    float: right;
+}
+
+.catalog-item .btn {
+    width: 101px;
+    color: white;
+    background-color: #a38b70;
+}
+
+.catalog-item .btn:hover {
+    background-color: #8d745a;
+}
+
+.catalog-item .btn:active {
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .price-list {
