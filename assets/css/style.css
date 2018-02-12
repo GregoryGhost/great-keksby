@@ -231,6 +231,9 @@ body {
     line-height: 55px;
     font-weight: bold;
     color: #a38b70;
+    margin: 0;
+    margin-bottom: 60px;
+    margin-right: 180px;
 }
 
 .reference-title {
